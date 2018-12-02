@@ -37,6 +37,8 @@ echo '<br />';
 echo '#5 return largest: <br />';
 echo largestNum([1, 6, 9, 33, -5]);
 echo '<br />';
+echo largestNum([-1, -6, -9, -33, -5]);
+echo '<br />';
 
 
 //#6 sum

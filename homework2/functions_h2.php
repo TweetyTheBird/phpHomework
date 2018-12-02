@@ -29,7 +29,7 @@ function concatName($first_name, $last_name) {
 }
 
 function largestNum($numbers) {
-    $largest = 0;
+    $largest = -INF;
     foreach ($numbers as $num) {
         if ($num > $largest) {
             $largest = $num;
